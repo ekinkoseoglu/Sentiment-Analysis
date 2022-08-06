@@ -1,0 +1,82 @@
+
+
+
+
+    .analyzer-component-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        background-color: #fafafa;
+        border-right: 1px solid #e0e0e0;
+        overflow: hidden;
+
+        background: linear-gradient(285deg, #0398FB, #F05F2B, #FBB530);
+        background-size: 600% 600%;
+        -webkit-animation: AnimationName 60s ease infinite;
+        -moz-animation: AnimationName 60s ease infinite;
+        -o-animation: AnimationName 60s ease infinite;
+        animation: AnimationName 60s ease infinite;
+
+        @-webkit-keyframes AnimationName {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @-moz-keyframes AnimationName {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @-o-keyframes AnimationName {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+        @keyframes AnimationName {
+            0%{background-position:0% 50%}
+            50%{background-position:100% 50%}
+            100%{background-position:0% 50%}
+        }
+    }
+
+    .result-component-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+        height: 100%;
+        background-color: #fafafa;
+        border-left: 1px solid #e0e0e0;
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+        // gradient background
+        background: linear-gradient(285deg, #0398FB, #F05F2B, #FBB530);
+
+        .emoji-desc{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+         
+          img{
+            width: 50%;
+          }
+
+          
+
+        }
+    }
+
+    
+
+        
+
+        
+ 
+  
+

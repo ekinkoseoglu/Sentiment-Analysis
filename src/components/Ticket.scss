@@ -1,0 +1,42 @@
+.mainPanel{
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-right: 250px;
+    
+    margin:10px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 1rem;
+    border-left: none;
+    font-family: Circular,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,oxygen-sans,ubuntu,cantarell,"Helvetica Neue",sans-serif;
+    position: relative;
+    font-weight: 900;
+    
+}
+.answerHeader{
+    font-size: 24px !important;
+    line-height: 32px !important;
+  
+}.answers{
+    border-bottom: 2px;
+    font-family: Circular,-apple-system,blinkmacsystemfont,"Segoe UI",roboto,oxygen-sans,ubuntu,cantarell,"Helvetica Neue",sans-serif;
+}
+
+.displayquestion{
+    padding-bottom: 25px;
+}
+
+
+li:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+
+.emoji{
+    
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
